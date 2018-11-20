@@ -25,6 +25,7 @@ var plugin = $.extend({}, Craft.Redactor.PluginBase, {
                                 url += ':transform:' + transform;
                             }
 
+                            debugger;
                             console.log(asset);
 
                             var data = {};
