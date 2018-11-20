@@ -25,6 +25,8 @@ var plugin = $.extend({}, Craft.Redactor.PluginBase, {
                                 url += ':transform:' + transform;
                             }
 
+                            console.log(asset);
+
                             var data = {};
                             data['asset'+asset.id] = {
                                 url: url,
